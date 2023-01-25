@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Form</title>
+</head>
+<body>
+   <!---Form building -->
+  <form action="mailto:editingr2020Gmail.com" method="post" enctype="text/plain">
+  <table cellspacing="20">
+    <tr>
+      <td>
+        <label>
+          <strong>Name:</strong>
+        
+        <input type="name" id="name" name="name" required> </label></td>
+      <td>
+        <strong><label for="email">Email:</label></strong>
+        <input type="Email" name="email" id="Email" required>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for age><strong>age</strong></label>
+        <input type="number" id="age" value="18" name="age" min="18" max="120" required itemref=>
+      </td>
+      <td>
+        <strong><label for="sex">sex</label> </strong>
+        <select id="slect-element" name="sex">
+          <optgroup label="Select">
+          <option value="male">Male</option>
+          <option value="Female">Female</option>
+          </optgroup>
+         
+        </td>
+
+        <tr>
+          <td><label for="District"><strong>District</strong></label>
+            <select id="select-elemet" Name="District">
+              <optgroup label="Select">
+                <option value="Raj">Rajasthan</option>
+                <option value="GJ">Gujrat</option>
+              </optgroup>
+                              
+          </td>
+          <td>
+              <label for="Nationality"><strong>Nation</strong></label>
+              <select name="select-element" id="Nation">
+              <optgroup label="Select">
+                <option value="Indian">Indian</option>
+                <Option value="Pakishtan"> Pakishtan</Option>
+                <Option value="Chaina">Chaina</Option>
+                <option value="USA">USA</option>
+                <option value="Other">Other</option>
+              </optgroup>
+
+          </td>
+          <tr>
+            <td>
+              <strong><label for="part">Which Party</label></strong>
+              <select name="select-element" id="Which Party">
+                <Optgroup label="Which">
+                  <option value="BJP">BJP</option>
+                  <option value="Congrass">Congrass</option>
+                  <Option value="AAP">AAP</Option>
+                  <option value="Other">Other</option>
+                </Optgroup>
+            </td>
+          </tr>
+       
+               
+    </tr>
+    <tr>
+      <td>
+        <label for="Capital"><strong><i><del>Capital</del></i></strong></label>
+        <select type="select-element" id="select-elemet">
+          <optgroup label="Select cetagories">
+            <option value="Below 1 Lac">Below 1 Lac</option>
+            <option value="More than 1 Lac">More than 1 lac</option>
+          </optgroup>
+      </td>
+    </tr>
+    <td>
+      <label for DOB>DOB</label>
+      <input type="date" required>
+      <label for Photo> Adhar card Photo</label>
+      <input type="file" required>
+       <input type="password" maxlength="30" minlength="8" required>
+       <button type="show password" id="show password" name="showpassword">Show password</button>
+      <label>Are you agree with our terms and condition</label>
+      <input type="checkbox" >
+      
+      <input type="submit" value="submit" name="submit" required>
+      <br>
+      <label>What are you want to say?</label>
+      <br>
+      <textarea name="name" rows="1" cols="20"></textarea>
+
+    
+  </td>
+    </table>
+
+
+
+
+</form>
+
+</body>
+</html>
